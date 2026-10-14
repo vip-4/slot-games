@@ -16,7 +16,7 @@
 - RTP：96.50%（100 万次模拟校验）
 - 投注区间：0.2 – 100
 - 最高单符号赔付：7334× 线注
-- 特性：免费旋转（3 个 Scatter 触发，undefined 次起）、奖金游戏、Gamble 加倍、本机台奖池、Wild 替代符号
+- 特性：免费旋转（3 个 Scatter 触发，10 次起）、奖金游戏、Gamble 加倍、本机台奖池、Wild 替代符号
 
 ### 幸运龙 Fortune Dragon（fortune-dragon）
 - 页面：https://vip-4.github.io/slot-games/engine/games/fortune-dragon/
@@ -24,7 +24,7 @@
 - RTP：96.20%（100 万次模拟校验）
 - 投注区间：0.2 – 100
 - 最高单符号赔付：6188× 线注
-- 特性：免费旋转（3 个 Scatter 触发，undefined 次起）、奖金游戏、Gamble 加倍、本机台奖池、Wild 替代符号
+- 特性：免费旋转（3 个 Scatter 触发，10 次起）、奖金游戏、Gamble 加倍、本机台奖池、Wild 替代符号
 
 ### 经典水果 Fruit Classic（fruit-classic）
 - 页面：https://vip-4.github.io/slot-games/engine/games/fruit-classic/
@@ -40,7 +40,7 @@
 - RTP：96.20%（100 万次模拟校验）
 - 投注区间：0.25 – 125
 - 最高单符号赔付：2020× 线注
-- 特性：免费旋转（3 个 Scatter 触发，undefined 次起）、奖金游戏、Gamble 加倍、本机台奖池、Wild 替代符号
+- 特性：免费旋转（3 个 Scatter 触发，12 次起）、奖金游戏、Gamble 加倍、本机台奖池、Wild 替代符号
 
 ### 深海宝藏 Ocean Treasure（ocean-treasure）
 - 页面：https://vip-4.github.io/slot-games/engine/games/ocean-treasure/
@@ -48,7 +48,15 @@
 - RTP：95.90%（100 万次模拟校验）
 - 投注区间：0.4 – 200
 - 最高单符号赔付：3447× 线注
-- 特性：免费旋转（3 个 Scatter 触发，undefined 次起）、奖金游戏、Gamble 加倍、本机台奖池、Wild 替代符号
+- 特性：免费旋转（3 个 Scatter 触发，8 次起）、奖金游戏、Gamble 加倍、本机台奖池、Wild 替代符号
+
+### 凤凰涅槃 Phoenix Reborn（phoenix-reborn）
+- 页面：https://vip-4.github.io/slot-games/engine/games/phoenix-reborn/
+- 规格：5 个转轮 × 3 行，25 条赔付线，14 种符号
+- RTP：96.00%（100 万次模拟校验）
+- 投注区间：0.25 – 125
+- 最高单符号赔付：505× 线注
+- 特性：免费旋转（3 个 Scatter 触发，8 次起）、奖金游戏、Gamble 加倍、本机台奖池、Wild 替代符号
 
 ## 页面索引
 
@@ -58,6 +66,7 @@
 - [经典水果 Fruit Classic](https://vip-4.github.io/slot-games/engine/games/fruit-classic/)：赔率表、特性说明、FAQ、在线试玩
 - [龙虎斗 Dragon Tiger Fortune](https://vip-4.github.io/slot-games/engine/games/dragon-tiger/)：赔率表、特性说明、FAQ、在线试玩
 - [深海宝藏 Ocean Treasure](https://vip-4.github.io/slot-games/engine/games/ocean-treasure/)：赔率表、特性说明、FAQ、在线试玩
+- [凤凰涅槃 Phoenix Reborn](https://vip-4.github.io/slot-games/engine/games/phoenix-reborn/)：赔率表、特性说明、FAQ、在线试玩
 
 ## 免责声明
 
