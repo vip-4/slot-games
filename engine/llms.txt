@@ -1,0 +1,64 @@
+# Slot Games Collection
+
+> 开源老虎机合集：5 款机台共用同一套配置驱动引擎（config-engine），全部游戏数学由 CONFIG 定义并经蒙特卡洛模拟校验。
+
+事实要点：
+- 用途：浏览器内免费试玩，使用虚拟积分，不涉及真钱、无法币兑换、不提供充值或提现。
+- 技术：纯静态站点，无后端；旋转结果由浏览器内的 SpinEngine 即时计算，RNG 为可播种的 xoshiro128**。
+- 校验：每款机台以 100 万次模拟验证 RTP，实测值与声明值偏差在 ±0.5 个百分点内。
+- 站点根：https://vip-4.github.io/slot-games/engine/
+
+## 机台清单
+
+### 埃及黄金 Egypt Gold（egypt-gold）
+- 页面：https://vip-4.github.io/slot-games/engine/games/egypt-gold/
+- 规格：5 个转轮 × 3 行，20 条赔付线，13 种符号
+- RTP：96.50%（100 万次模拟校验）
+- 投注区间：0.2 – 100
+- 最高单符号赔付：7334× 线注
+- 特性：免费旋转（3 个 Scatter 触发，undefined 次起）、奖金游戏、Gamble 加倍、本机台奖池、Wild 替代符号
+
+### 幸运龙 Fortune Dragon（fortune-dragon）
+- 页面：https://vip-4.github.io/slot-games/engine/games/fortune-dragon/
+- 规格：5 个转轮 × 3 行，20 条赔付线，13 种符号
+- RTP：96.20%（100 万次模拟校验）
+- 投注区间：0.2 – 100
+- 最高单符号赔付：6188× 线注
+- 特性：免费旋转（3 个 Scatter 触发，undefined 次起）、奖金游戏、Gamble 加倍、本机台奖池、Wild 替代符号
+
+### 经典水果 Fruit Classic（fruit-classic）
+- 页面：https://vip-4.github.io/slot-games/engine/games/fruit-classic/
+- 规格：3 个转轮 × 3 行，5 条赔付线，8 种符号
+- RTP：95.50%（100 万次模拟校验）
+- 投注区间：0.2 – 100
+- 最高单符号赔付：325× 线注
+- 特性：Gamble 加倍、本机台奖池、Wild 替代符号
+
+### 龙虎斗 Dragon Tiger Fortune（dragon-tiger）
+- 页面：https://vip-4.github.io/slot-games/engine/games/dragon-tiger/
+- 规格：5 个转轮 × 4 行，25 条赔付线，13 种符号
+- RTP：96.20%（100 万次模拟校验）
+- 投注区间：0.25 – 125
+- 最高单符号赔付：2020× 线注
+- 特性：免费旋转（3 个 Scatter 触发，undefined 次起）、奖金游戏、Gamble 加倍、本机台奖池、Wild 替代符号
+
+### 深海宝藏 Ocean Treasure（ocean-treasure）
+- 页面：https://vip-4.github.io/slot-games/engine/games/ocean-treasure/
+- 规格：5 个转轮 × 4 行，40 条赔付线，13 种符号
+- RTP：95.90%（100 万次模拟校验）
+- 投注区间：0.4 – 200
+- 最高单符号赔付：3447× 线注
+- 特性：免费旋转（3 个 Scatter 触发，undefined 次起）、奖金游戏、Gamble 加倍、本机台奖池、Wild 替代符号
+
+## 页面索引
+
+- [首页](https://vip-4.github.io/slot-games/engine/)：机台列表与规格总览
+- [埃及黄金 Egypt Gold](https://vip-4.github.io/slot-games/engine/games/egypt-gold/)：赔率表、特性说明、FAQ、在线试玩
+- [幸运龙 Fortune Dragon](https://vip-4.github.io/slot-games/engine/games/fortune-dragon/)：赔率表、特性说明、FAQ、在线试玩
+- [经典水果 Fruit Classic](https://vip-4.github.io/slot-games/engine/games/fruit-classic/)：赔率表、特性说明、FAQ、在线试玩
+- [龙虎斗 Dragon Tiger Fortune](https://vip-4.github.io/slot-games/engine/games/dragon-tiger/)：赔率表、特性说明、FAQ、在线试玩
+- [深海宝藏 Ocean Treasure](https://vip-4.github.io/slot-games/engine/games/ocean-treasure/)：赔率表、特性说明、FAQ、在线试玩
+
+## 免责声明
+
+本站所有内容为娱乐演示，不构成任何形式的赌博服务。RTP 为长期理论值，短期结果随机。未满 18 岁请勿使用。

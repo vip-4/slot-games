@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vip-4.github.io/slot-games/engine/sitemap.xml
