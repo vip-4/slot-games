@@ -1,0 +1,216 @@
+# Slot Games Collection — 完整数据（llms-full.txt）
+
+> 索引版见 https://vip-4.github.io/slot-games/engine/llms.txt。本文件包含每款机台的完整赔付表与特性参数，供精确引用。
+
+数值口径：赔付为「线注倍数」，实得金额 = 赔付 × 硬币面值。RTP 经 100 万次蒙特卡洛模拟校验，声明值与实测偏差 ≤ 0.5 个百分点。
+
+## 埃及黄金 Egypt Gold（egypt-gold）
+
+- 页面：https://vip-4.github.io/slot-games/engine/games/egypt-gold/
+- 转轮：5 × 3，20 条赔付线，赔付方向 left
+- 符号总数：13；RTP：96.50%
+- 投注档位：1 / 2 / 3 / 4 / 5 / 10 / 20 / 50（区间 0.2 – 100）
+- 硬币面值：0.01 / 0.02 / 0.05 / 0.1 / 0.25 / 0.5 / 1 / 2 / 5
+
+### 赔付表（线注倍数）
+
+| 符号 | 类型 | 3 连 | 4 连 | 5 连 |
+| --- | --- | --- | --- | --- |
+| 法老 Pharaoh | normal | 147 | 587 | 2934 |
+| 圣甲虫 Scarab | normal | 88 | 293 | 1467 |
+| 荷鲁斯之眼 Eye of Ra | normal | 59 | 220 | 880 |
+| 安卡 Ankh | normal | 43 | 147 | 587 |
+| 埃及猫 Bastet | normal | 29 | 88 | 440 |
+| A | normal | 14 | 43 | 147 |
+| K | normal | 14 | 43 | 147 |
+| Q | normal | 12 | 29 | 117 |
+| J | normal | 12 | 29 | 117 |
+| 10 | normal | 9 | 23 | 88 |
+| Wild 金字塔 | wild | 293 | 1467 | 7334 |
+| Scatter 圣甲虫王 | scatter | 29 | 147 | 587 |
+| Bonus 宝藏之门 | bonus | 59 | 293 | 1467 |
+
+### 特性参数
+
+- 免费旋转：3 个 scatter 触发，赠送 10 次，起始倍率 3×，可再触发
+- 奖金游戏：pick_and_click，4 个 bonus 触发，可选 3 次；奖项 coins_x10、coins_x25、coins_x50、multiplier_x2、free_spins_5、jackpot_mini
+- Gamble：high_low / red_black，上限 1000，最多连猜 5 次
+- 奖池：local，档位 Mini(10)、Minor(50)、Major(250)、Grand(1000)
+
+配置源：games/egypt-gold/config.ts（与本页展示数据同源）
+
+## 幸运龙 Fortune Dragon（fortune-dragon）
+
+- 页面：https://vip-4.github.io/slot-games/engine/games/fortune-dragon/
+- 转轮：5 × 3，20 条赔付线，赔付方向 left
+- 符号总数：13；RTP：96.20%
+- 投注档位：1 / 2 / 3 / 4 / 5 / 10 / 20 / 50（区间 0.2 – 100）
+- 硬币面值：0.01 / 0.02 / 0.05 / 0.1 / 0.25 / 0.5 / 1 / 2 / 5
+
+### 赔付表（线注倍数）
+
+| 符号 | 类型 | 3 连 | 4 连 | 5 连 |
+| --- | --- | --- | --- | --- |
+| 龙 Dragon | normal | 124 | 464 | 1857 |
+| 灯笼 Lantern | normal | 78 | 309 | 1238 |
+| 锦鲤 Koi | normal | 62 | 232 | 928 |
+| 金币 Coin | normal | 46 | 154 | 619 |
+| 烟花 Firework | normal | 30 | 92 | 464 |
+| A | normal | 16 | 46 | 154 |
+| K | normal | 16 | 46 | 154 |
+| Q | normal | 13 | 30 | 124 |
+| J | normal | 13 | 30 | 124 |
+| 10 | normal | 9 | 25 | 92 |
+| Wild 龙珠 | wild | 248 | 1238 | 6188 |
+| Scatter 龙殿 | scatter | 25 | 124 | 464 |
+| Bonus 福袋 | bonus | 46 | 248 | 1238 |
+
+### 特性参数
+
+- 免费旋转：3 个 scatter 触发，赠送 10 次，起始倍率 2×，retrigger 递进 2→3→5→10×，可再触发
+- 奖金游戏：pick_and_click，4 个 bonus 触发，可选 3 次；奖项 coins_x10、coins_x25、coins_x50、multiplier_x2、free_spins_5、jackpot_mini
+- 成叠符号：Wild 龙珠（成叠概率 0.08）
+- Gamble：high_low / red_black，上限 500，最多连猜 5 次
+- 奖池：local，档位 Mini(10)、Minor(50)、Major(250)、Grand(1000)
+
+配置源：games/fortune-dragon/config.ts（与本页展示数据同源）
+
+## 经典水果 Fruit Classic（fruit-classic）
+
+- 页面：https://vip-4.github.io/slot-games/engine/games/fruit-classic/
+- 转轮：3 × 3，5 条赔付线，赔付方向 left
+- 符号总数：8；RTP：95.50%
+- 投注档位：1 / 2 / 3 / 5 / 10（区间 0.2 – 100）
+- 硬币面值：0.01 / 0.02 / 0.05 / 0.1 / 0.25 / 0.5 / 1 / 2
+
+### 赔付表（线注倍数）
+
+| 符号 | 类型 | 3 连 |
+| --- | --- | --- |
+| 7 Seven | normal | 195 |
+| 铃铛 Bell | normal | 78 |
+| 西瓜 Watermelon | normal | 52 |
+| 葡萄 Grape | normal | 33 |
+| 橙子 Orange | normal | 20 |
+| 柠檬 Lemon | normal | 13 |
+| 樱桃 Cherry | normal | 7 |
+| Wild 幸运星 | wild | 325 |
+
+### 特性参数
+
+- Gamble：high_low / red_black，上限 200，最多连猜 5 次
+- 奖池：local，档位 Mini(20)、Minor(100)、Grand(500)
+
+配置源：games/fruit-classic/config.ts（与本页展示数据同源）
+
+## 龙虎斗 Dragon Tiger Fortune（dragon-tiger）
+
+- 页面：https://vip-4.github.io/slot-games/engine/games/dragon-tiger/
+- 转轮：5 × 4，25 条赔付线，赔付方向 left
+- 符号总数：13；RTP：96.20%
+- 投注档位：1 / 2 / 3 / 4 / 5 / 10 / 20 / 50（区间 0.25 – 125）
+- 硬币面值：0.01 / 0.02 / 0.05 / 0.1 / 0.25 / 0.5 / 1 / 2 / 5
+
+### 赔付表（线注倍数）
+
+| 符号 | 类型 | 3 连 | 4 连 | 5 连 |
+| --- | --- | --- | --- | --- |
+| 龙 Dragon | normal | 54 | 269 | 1347 |
+| 虎 Tiger | normal | 40 | 202 | 1010 |
+| 凤凰 Phoenix | normal | 34 | 135 | 673 |
+| 玄武 Turtle | normal | 20 | 81 | 404 |
+| 铜钱 Coin | normal | 13 | 54 | 269 |
+| 灯笼 Lantern | normal | 10 | 40 | 202 |
+| 元宝 Ingot | normal | 17 | 67 | 337 |
+| 福 Fortune | normal | 7 | 27 | 135 |
+| 禄 Prosperity | normal | 7 | 27 | 135 |
+| 寿 Longevity | normal | 7 | 27 | 135 |
+| Wild 太极 | wild | 67 | 337 | 2020 |
+| Scatter 龙珠 | scatter | 20 | 101 | 539 |
+| Bonus 龙门 | bonus | 34 | 168 | 808 |
+
+### 特性参数
+
+- 免费旋转：3 个 scatter 触发，赠送 12 次，起始倍率 2×，可再触发
+- 奖金游戏：pick_and_click，4 个 bonus 触发，可选 3 次；奖项 coins_x10、coins_x25、coins_x50、multiplier_x2、free_spins_5、jackpot_mini
+- Gamble：red_black / high_low，上限 500，最多连猜 5 次
+- 奖池：local，档位 Mini(10)、Minor(50)、Major(250)、Grand(1000)
+
+配置源：games/dragon-tiger/config.ts（与本页展示数据同源）
+
+## 深海宝藏 Ocean Treasure（ocean-treasure）
+
+- 页面：https://vip-4.github.io/slot-games/engine/games/ocean-treasure/
+- 转轮：5 × 4，40 条赔付线，赔付方向 left
+- 符号总数：13；RTP：95.90%
+- 投注档位：2 / 4 / 6 / 10 / 20 / 40（区间 0.4 – 200）
+- 硬币面值：0.01 / 0.02 / 0.05 / 0.1 / 0.25 / 0.5 / 1 / 2 / 5
+
+### 赔付表（线注倍数）
+
+| 符号 | 类型 | 3 连 | 4 连 | 5 连 |
+| --- | --- | --- | --- | --- |
+| 海妖 Kraken | normal | 115 | 459 | 1724 |
+| 鲨鱼 Shark | normal | 68 | 287 | 1149 |
+| 海龟 Turtle | normal | 46 | 172 | 690 |
+| 河豚 Pufferfish | normal | 34 | 115 | 459 |
+| 贝壳 Shell | normal | 23 | 92 | 344 |
+| 小鱼 Fish | normal | 17 | 68 | 287 |
+| A | normal | 11 | 46 | 172 |
+| K | normal | 11 | 46 | 172 |
+| Q | normal | 9 | 34 | 138 |
+| J | normal | 9 | 34 | 138 |
+| Wild 海藻 | wild | 172 | 690 | 3447 |
+| Scatter 珍珠 | scatter | 23 | 115 | 575 |
+| Bonus 藏宝图 | bonus | 34 | 172 | 920 |
+
+### 特性参数
+
+- 免费旋转：3 个 scatter 触发，赠送 8 次，起始倍率 2×，retrigger 递进 2→3→5→8×，可再触发
+- 奖金游戏：pick_and_click，4 个 bonus 触发，可选 3 次；奖项 coins_x10、coins_x25、coins_x50、multiplier_x2、free_spins_5、jackpot_mini
+- 成叠符号：Wild 海藻（成叠概率 0.05）
+- Gamble：high_low / red_black，上限 500，最多连猜 5 次
+- 奖池：local，档位 Mini(10)、Minor(50)、Major(250)、Grand(1000)
+
+配置源：games/ocean-treasure/config.ts（与本页展示数据同源）
+
+## 凤凰涅槃 Phoenix Reborn（phoenix-reborn）
+
+- 页面：https://vip-4.github.io/slot-games/engine/games/phoenix-reborn/
+- 转轮：5 × 3，25 条赔付线，赔付方向 left
+- 符号总数：14；RTP：96.00%
+- 投注档位：1 / 2 / 3 / 5 / 10 / 20 / 50（区间 0.25 – 125）
+- 硬币面值：0.01 / 0.02 / 0.05 / 0.1 / 0.25 / 0.5 / 1 / 2 / 5
+
+### 赔付表（线注倍数）
+
+| 符号 | 类型 | 3 连 | 4 连 | 5 连 |
+| --- | --- | --- | --- | --- |
+| 凤凰 Phoenix | normal | 17 | 67 | 252 |
+| 莲花 Lotus | normal | 10 | 41 | 167 |
+| 玉佩 Jade | normal | 7 | 25 | 100 |
+| 香炉 Incense | normal | 5 | 17 | 68 |
+| 鼓 Drum | normal | 3 | 10 | 41 |
+| A | normal | 2 | 7 | 25 |
+| K | normal | 2 | 7 | 25 |
+| Q | normal | 1 | 5 | 20 |
+| J | normal | 1 | 5 | 20 |
+| 10 | normal | 1 | 4 | 17 |
+| Wild 涅槃之翼 | wild | 25 | 100 | 505 |
+| Scatter 梧桐树 | scatter | 3 | 17 | 67 |
+| Bonus 涅槃蛋 | bonus | 5 | 25 | 100 |
+| 涅槃火种 Ember | multiplier（×3 放大） | 1 | 3 | 10 |
+
+### 特性参数
+
+- 免费旋转：3 个 scatter 触发，赠送 8 次，起始倍率 2×，retrigger 递进 2→3→5→8×，可再触发
+- 奖金游戏：pick_and_click，4 个 bonus 触发，可选 3 次；奖项 coins_x10、coins_x25、coins_x50、multiplier_x2、free_spins_5、jackpot_mini
+- 成叠符号：Wild 涅槃之翼（成叠概率 0.06）
+- Gamble：high_low / red_black，上限 500，最多连猜 5 次
+- 奖池：local，档位 Mini(10)、Minor(50)、Major(250)、Grand(1000)
+
+配置源：games/phoenix-reborn/config.ts（与本页展示数据同源）
+
+## 免责声明
+
+娱乐演示用途，虚拟积分，不涉及真钱、无法币兑换。RTP 为长期理论值，短期结果随机。未满 18 岁请勿使用。

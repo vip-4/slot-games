@@ -7,6 +7,7 @@
 - 技术：纯静态站点，无后端；旋转结果由浏览器内的 SpinEngine 即时计算，RNG 为可播种的 xoshiro128**。
 - 校验：每款机台以 100 万次模拟验证 RTP，实测值与声明值偏差在 ±0.5 个百分点内。
 - 站点根：https://vip-4.github.io/slot-games/engine/
+- 完整数值（每个符号逐档赔付、特性参数）：https://vip-4.github.io/slot-games/engine/llms-full.txt
 
 ## 机台清单
 
