@@ -806,10 +806,68 @@
     return events;
   }
 
+  // 阶梯阈值赔付：取「不超过 count 的最大档」，与 Python threshold_payout 一致
+  function thresholdPayout(pays, count) {
+    var bestKey = null;
+    Object.keys(pays).forEach(function (keyStr) {
+      var key = Number(keyStr);
+      if (count >= key && (bestKey === null || key > bestKey)) bestKey = key;
+    });
+    return bestKey === null ? 0.0 : pays[String(bestKey)];
+  }
+
+  function evaluateScatterPays(cfg, grid, totalBet, baseMultiplier) {
+    var sp = cfg.features && cfg.features.scatter_pays;
+    if (!sp || !sp.enabled) return [];
+    var minCount = Math.max(2, sp.min_count || 2);
+    var mult = Math.max(1.0, baseMultiplier || 1.0);
+    var wildPositions = [];
+    if (sp.wild_substitutes) {
+      wildPositions = collectPositions(
+        grid,
+        Object.keys(cfg.symbols).filter(function (id) {
+          return isWild(cfg, id);
+        })
+      );
+    }
+    var ids =
+      sp.pay_symbols && sp.pay_symbols.length
+        ? sp.pay_symbols
+        : Object.keys(cfg.symbols)
+            .filter(function (id) {
+              var s = cfg.symbols[id];
+              return s.kind === 'standard' && s.pays && Object.keys(s.pays).length > 0;
+            });
+    var events = [];
+    ids.forEach(function (id) {
+      var sym = cfg.symbols[id];
+      if (!sym || !sym.pays || !Object.keys(sym.pays).length) return;
+      var positions = collectPositions(grid, [id]);
+      var count = positions.length + wildPositions.length;
+      if (count < minCount) return;
+      var pay = thresholdPayout(sym.pays, count);
+      if (!pay) return;
+      events.push({
+        kind: 'scatter_pays',
+        symbol: id,
+        count: count,
+        positions: positions.concat(wildPositions),
+        lineIndex: -1,
+        baseAmount: pay * totalBet,
+        multiplier: mult,
+        amount: pay * totalBet * mult,
+        label: sym.name + ' x' + count
+      });
+    });
+    return events;
+  }
+
   function evaluateGrid(cfg, grid, ctx, baseMultiplier) {
     var events = [];
     if (cfg.pay_mode === 'ways') {
       events = events.concat(evaluateWays(cfg, grid, ctx.totalBet / Math.max(1, waysOf(cfg)), baseMultiplier));
+    } else if (cfg.pay_mode === 'scatter_pays') {
+      events = events.concat(evaluateScatterPays(cfg, grid, ctx.totalBet, baseMultiplier));
     } else {
       events = events.concat(evaluateLines(cfg, grid, ctx.lineBet, ctx.lines, ctx.activeLines, baseMultiplier));
     }

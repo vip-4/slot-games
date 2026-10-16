@@ -174,13 +174,28 @@
   function renderPaytable() {
     const box = el('paytable');
     if (!box) return;
-    const maxLen = cfg.pay_mode === 'ways' ? cfg.reels : Math.min(5, cfg.reels);
+    // 全盘散付的 pays 键是「整屏个数阈值」（8/10/12），不是连线长度
+    const scatter = cfg.pay_mode === 'scatter_pays';
     const heads = [];
-    for (let n = 2; n <= maxLen; n++) heads.push(n);
+    if (scatter) {
+      Object.keys(cfg.symbols).forEach((id) => {
+        const s = cfg.symbols[id];
+        if (!s.pays) return;
+        Object.keys(s.pays).forEach((k) => {
+          const n = Number(k);
+          if (heads.indexOf(n) < 0) heads.push(n);
+        });
+      });
+      heads.sort((a, b) => a - b);
+    } else {
+      const maxLen = cfg.pay_mode === 'ways' ? cfg.reels : Math.min(5, cfg.reels);
+      for (let n = 2; n <= maxLen; n++) heads.push(n);
+    }
+    const unitText = scatter ? '总注' : '线注 / 通路注';
     let html =
-      '<table class="paytable"><caption>赔付表（单位：线注 / 通路注倍数）</caption><thead><tr><th scope="col">符号</th>';
+      `<table class="paytable"><caption>赔付表（单位：${unitText}倍数）</caption><thead><tr><th scope="col">符号</th>`;
     heads.forEach((n) => {
-      html += `<th scope="col">${n} 连</th>`;
+      html += `<th scope="col">${n} ${scatter ? '个' : '连'}</th>`;
     });
     html += '</tr></thead><tbody>';
     Object.keys(cfg.symbols).forEach((id) => {
