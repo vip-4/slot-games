@@ -36,6 +36,24 @@
 - 法老之墓：40000 局，实测 RTP 88.47%
 - 星际远征：40000 局，实测 RTP 93.54%
 
+## 开源轻游戏导航（第三方，本站仅索引不托管）
+- A puzzle game inspired by functional programming（MIT）：https://github.com/sharkdp/cube-composer
+- 基于HTML5的吃豆人游戏 - 经典游戏开发样例_Pacman based on HTML5（MIT）：https://github.com/mumuy/pacman
+- Learn Kubernetes by playing. Deploy pods, fix CrashLoopBackOff, type real kubectl commands: 3D browser game, no install needed.（Apache-2.0）：https://github.com/rohitg00/k8sgames
+- A game to test your familiarity with the ‘Gang of Four’ design patterns implemented in JavaScript.（Unlicense）：https://github.com/zoltantothcom/Design-Patterns-JavaScript
+- 🎮 A spaceship shooting game developed using JavaScript ES6, Canvas（MIT）：https://github.com/gd4Ark/star-battle
+- Web game, hybrid of Mastermind and the Android pattern lock（MIT）：https://github.com/maxwellito/breaklock
+- 🕹 Open Source Javascript Game（MIT）：https://github.com/MahdiF/taptaptap
+- A sleek, masterfully crafted revival of the legendary arcade experience, engineered for pure nostalgia and modern web performance.（MIT）：https://github.com/ramazancetinkaya/snake-game
+- Guitar Bro – browser game that helps you learn notes on guitar（MIT）：https://github.com/makaroni4/guitar_bro
+- Retro-futuristic tank game. Pure JavaScript with ThreeJS.  Open Source（Apache-2.0）：https://github.com/brianrisk/SYNTHBLAST-threejs-game
+- Nya-iRPG / YAIRPG in short. A simple idle rpg game, inspired by Proto23.（MIT）：https://github.com/miktaew/yet-another-idle-rpg
+- 🎮 2048 game developed using javascript（MIT）：https://github.com/gd4Ark/2048
+- BadSanta - Multiplayer HTML5 Game (http://santa.qake.se)（MIT）：https://github.com/Lallassu/badsanta
+- A complete first-person shooter in a single 290 KB HTML file. No build step, no assets, no dependencies beyond three.js from a CDN.（MIT）：https://github.com/StarKnightt/operation-ironhold
+- 参考来源 Ludum Dare（GitHub 组织）：https://github.com/LudumDare —— 组织仓库以工具/库为主（实测仅 7 个公开仓库）；jam 作品在 ldjam.com 自有平台。
+- 参考来源 Simple Game Tutorials：https://berbasoft.com/simplegametutorials —— pygame-zero 教学包（Python 桌面游戏），非网页静态游戏。
+
 ## 常见问答
 Q：这些老虎机游戏是完全免费的吗？
 A：是的。14 款机台全部免费、无需注册、无需下载，打开网页即可游玩，游戏内使用的是虚拟积分，不涉及任何真实货币。
