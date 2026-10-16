@@ -468,13 +468,13 @@
 
   <section id="stats" aria-labelledby="stats-title">
   <h2 id="stats-title">验证与社区数据</h2>
-  <p>以下数据由构建流水线从数据库聚合后<strong>静态注入</strong>页面（最近更新：<time>2026-10-12T20:26:49+00:00</time>），
-     页面本身不会在运行时访问数据库。</p>
+  <p>仿真验证结果由构建流水线聚合后<strong>静态注入</strong>页面（最近更新：<time>2026-10-12T20:26:49+00:00</time>）；
+     社区榜单在页面打开时以<strong>匿名只读</strong>方式从 CloudBase 读取，读取失败会自动回退到本页的构建期快照。</p>
   <div class="table-scroll"><table>
     <caption>各机台仿真验证结果（累计 220,000 局）</caption>
     <thead><tr><th scope="col">机台</th><th scope="col">仿真局数</th><th scope="col">实测 RTP</th><th scope="col">批次</th></tr></thead>
     <tbody><tr><th scope="row">糖果狂欢</th><td>40,000</td><td>97.30%</td><td>2</td></tr><tr><th scope="row">龙宫探宝</th><td>40,000</td><td>97.58%</td><td>2</td></tr><tr><th scope="row">锦鲤纳福</th><td>20,000</td><td>95.12%</td><td>1</td></tr><tr><th scope="row">幸运水果机</th><td>40,000</td><td>95.98%</td><td>2</td></tr><tr><th scope="row">法老之墓</th><td>40,000</td><td>88.47%</td><td>2</td></tr><tr><th scope="row">星际远征</th><td>40,000</td><td>93.54%</td><td>2</td></tr></tbody></table></div>
-  <h3>社区最高倍率</h3><ol><li>pilot · 幸运水果机 · 18.4x</li></ol>
+  <h3>社区最高倍率</h3><p><label for="player-name">榜单昵称</label> <input id="player-name" type="text" maxlength="16" placeholder="匿名玩家" autocomplete="off"> <span class="hint">仅保存在本机浏览器，不会上传身份信息</span></p><ol id="community-top"><li>pilot · 幸运水果机 · 18.4x</li></ol><p class="hint" id="community-status" role="status" aria-live="polite">构建期快照</p>
 </section>
 
   <section id="terms" aria-labelledby="terms-title"><h2 id="terms-title">术语表</h2><dl class="terms"><dt>RTP（Return to Player）</dt><dd>长期返还率。96% 表示理论上每投入 100 积分，长期平均返还 96 积分；单局结果仍完全随机。</dd><dt>波动率（Volatility）</dt><dd>描述奖金分布的离散程度。低波动小奖频繁，高波动大奖稀有但倍率高。</dd><dt>赔付线（Payline）</dt><dd>固定线机台上预先定义的符号连线，中奖需从最左侧轴开始连续匹配。</dd><dt>Ways（全盘通路）</dt><dd>不记线，只要相邻轴出现同一符号即中奖，通路数为各轴出现次数之积（如 243 Ways、4096 Ways）。</dd><dt>Wild（百搭）</dt><dd>可替代其它参与赔付的符号，部分机台还带有倍率或扩展、锁定效果。</dd><dt>Scatter（ scatter 散落符号）</dt><dd>按全盘出现个数赔付或触发免费旋转，不要求落在赔付线上。</dd><dt>Hold &amp; Win（宝箱重转）</dt><dd>触发后锁定赏金符号并重置重转次数，每新增一个赏金符号都会延长重转，可开出固定奖池。</dd><dt>Cash Collect（金币收集）</dt><dd>屏上同时出现「收集者」（通常是 Wild）与币值符号时，一次性收取全部币值；币值以总注倍数计。</dd><dt>随机 Wild 投放</dt><dd>每局按权重在网格中随机投放若干 Wild，投放后仍参与线赔计算；常用于提升基础 game 的节奏感。</dd><dt>倍率 Wild</dt><dd>Wild 自带倍率并参与命中赔付的相乘；同一命中里多个倍率 Wild 可按「取最大 / 相加 / 相乘」合并。</dd><dt>Pick&#x27;em 选宝奖励</dt><dd>触发符号达到个数后连续挑选若干次，奖品以总注倍数计，可选有放回或无放回。</dd><dt>巨符号（Colossal Symbol）</dt><dd>每局先在网格里投放一个 N×N 的同符号方块再结算，方块尺寸、落点范围与可投放符号都由配置决定。</dd><dt>神秘符号（Mystery Symbol）</dt><dd>屏上的占位符号（如凤凰蛋）在结算前统一揭示为同一个随机符号，可能连成大片；也可配置成逐格独立揭示。</dd><dt>行走 Wild（Walking Wild）</dt><dd>Wild 落下后每局向指定方向移动一列，移出网格或撞到受保护符号才消失；跨局保存落点，通常在免费旋转里生效。</dd><dt>同步轴（Twin / Sync Reels）</dt><dd>每局随机挑选若干相邻轴显示完全相同的符号，复制后整个网格才进入结算；同步轴数按权重抽取。</dd><dt>符号升级（Symbol Upgrade）</dt><dd>级联中命中的符号沿阶梯升一档并保留在屏上，下一轮以更高赔付继续结算；每格每局只升级一次。</dd><dt>级联（Cascade / 雪崩）</dt><dd>中奖符号消除后上方符号坠落补位，形成一次投注多次结算，倍率逐级递增。</dd><dt>全盘散付（Scatter Pays）</dt><dd>不看出线位置，只数整屏同类符号个数：达到阈值（如 8 / 10 / 12）即按对应档位赔付，单位为总注倍数；Wild 可计入每个符号的个数。</dd><dt>随机倍率炸弹（Multiplier Bomb）</dt><dd>免费旋转内每个结算步骤按概率投放 1~3 颗炸弹，倍率相加后放大本步派彩；炸弹不占格，不影响命中个数。</dd></dl></section>
@@ -496,6 +496,7 @@
   </div>
 </footer>
 <script src="js/engine.js" defer></script>
+<script src="js/leaderboard.js" defer></script>
 <script src="js/app.js" defer></script>
 </body>
 </html>

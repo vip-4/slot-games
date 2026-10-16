@@ -1,10 +1,11 @@
 # 构建产物之外的存量页面：重建时会被追加进 sitemap.xml，防止已收录页面掉索引。
 # 格式：<url> [lastmod] [priority] [changefreq]；以 # 开头为注释。
+# 写成相对路径，随 --site-url 自适应（写绝对地址会在换域名后失效）。
 # /engine/ 为「引擎数值子站」（含逐档赔付表的 AI 可引用页面），由部署仓库单独维护。
-https://vip-4.github.io/slot-games/engine/ 2026-10-14 0.6 monthly
-https://vip-4.github.io/slot-games/engine/games/egypt-gold/ 2026-10-14 0.5 monthly
-https://vip-4.github.io/slot-games/engine/games/fortune-dragon/ 2026-10-14 0.5 monthly
-https://vip-4.github.io/slot-games/engine/games/fruit-classic/ 2026-10-14 0.5 monthly
-https://vip-4.github.io/slot-games/engine/games/dragon-tiger/ 2026-10-14 0.5 monthly
-https://vip-4.github.io/slot-games/engine/games/ocean-treasure/ 2026-10-14 0.5 monthly
-https://vip-4.github.io/slot-games/engine/games/phoenix-reborn/ 2026-10-14 0.5 monthly
+engine/ 2026-10-14 0.6 monthly
+engine/games/egypt-gold/ 2026-10-14 0.5 monthly
+engine/games/fortune-dragon/ 2026-10-14 0.5 monthly
+engine/games/fruit-classic/ 2026-10-14 0.5 monthly
+engine/games/dragon-tiger/ 2026-10-14 0.5 monthly
+engine/games/ocean-treasure/ 2026-10-14 0.5 monthly
+engine/games/phoenix-reborn/ 2026-10-14 0.5 monthly

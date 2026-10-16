@@ -67,6 +67,8 @@
     el('gamble-panel').hidden = true;
     if (el('play-game-name')) el('play-game-name').textContent = cfg.name;
     updateHud();
+    // 社区榜单：按当前机台拉取实时数据；失败时 leaderboard.js 会保留构建期快照
+    if (window.SlotLeaderboard) window.SlotLeaderboard.mount('community-top', cfg.id);
   }
 
   /** 奖池看板：把四档当前累积额渲染成一行；未启用奖池时整块隐藏。 */
@@ -303,6 +305,18 @@
       say(`本局中奖 ${result.totalWin.toFixed(2)}（${(result.totalWin / bet).toFixed(1)}x 投注）`);
     } else {
       say('本局未中奖，再试一次？');
+    }
+
+    // 达标成绩（≥10×）写入社区榜单：节流与限次在 leaderboard.js 内部，失败静默
+    if (window.SlotLeaderboard) {
+      window.SlotLeaderboard.maybeSubmit({
+        gameId: cfg.id,
+        gameName: cfg.name,
+        multiplier: bet > 0 ? result.totalWin / bet : 0,
+        bet: bet,
+      }).then((ok) => {
+        if (ok) window.SlotLeaderboard.mount('community-top', cfg.id);
+      });
     }
 
     const gamble = cfg.features.gamble;
