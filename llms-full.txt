@@ -1,13 +1,13 @@
 # Blender SLOT 游戏合集 — 完整数据（llms-full.txt）
 
-> 索引版见 https://vip-4.github.io/slot-games/llms.txt。本文件包含每款机台的完整赔付表与特性参数，供精确引用。
+> 索引版见 https://vip8-d4gy9ns0x898ab5b1-1302667714.tcloudbaseapp.com/llms.txt。本文件包含每款机台的完整赔付表与特性参数，供精确引用。
 
 数值口径：赔付为「线注倍数」，实得金额 = 赔付 × 单线注额。Scatter 按全盘个数赔付，单位与总注挂钩。
 数据来源：data/games.json（与页面正文同源，引擎 SlotEngine.js (pure front-end port of slotmcp.engine)）
 
 ## 糖果狂欢（candy_carnival）
 
-- 页面：https://vip-4.github.io/slot-games/games/candy_carnival.html
+- 页面：https://vip8-d4gy9ns0x898ab5b1-1302667714.tcloudbaseapp.com/games/candy_carnival.html
 - 规格：5 轴 × 3 行，20 条固定赔付线，符号 8 种
 - 数学：目标 RTP 96.00%（容差 ±2.00%），波动 medium，最高单局 60×，命中率目标 68.00%
 - 投注档位：0.2 / 0.5 / 1 / 2 / 5 / 10 / 20（总注上限 20）
@@ -37,7 +37,7 @@ Scatter 全盘赔付（糖果杯 Scatter）：3 个 2× 总注；4 个 10× 总�
 
 ## 巨神遗迹（colossal_ruins）
 
-- 页面：https://vip-4.github.io/slot-games/games/colossal_ruins.html
+- 页面：https://vip8-d4gy9ns0x898ab5b1-1302667714.tcloudbaseapp.com/games/colossal_ruins.html
 - 规格：5 轴 × 3 行，20 条固定赔付线，符号 8 种
 - 数学：目标 RTP 96.50%（容差 ±2.50%），波动 medium-high，最高单局 500×，命中率目标 32.00%
 - 投注档位：0.2 / 0.5 / 1 / 2 / 5 / 10 / 20（总注上限 20）
@@ -68,7 +68,7 @@ Scatter 全盘赔付（遗迹之门 Scatter）：3 个 1.33× 总注；4 个 5.2
 
 ## 龙宫探宝（dragon_palace）
 
-- 页面：https://vip-4.github.io/slot-games/games/dragon_palace.html
+- 页面：https://vip8-d4gy9ns0x898ab5b1-1302667714.tcloudbaseapp.com/games/dragon_palace.html
 - 规格：5 轴 × 4 行，50 条固定赔付线，符号 7 种
 - 数学：目标 RTP 96.00%（容差 ±3.00%），波动 high，最高单局 1000×，命中率目标 57.00%
 - 投注档位：0.5 / 1 / 2 / 5 / 10 / 20 / 50（总注上限 50）
@@ -97,7 +97,7 @@ Scatter 全盘赔付（龙宫 Scatter）：3 个 1× 总注；4 个 3× 总注�
 
 ## 锦鲤纳福（fortune_koi）
 
-- 页面：https://vip-4.github.io/slot-games/games/fortune_koi.html
+- 页面：https://vip8-d4gy9ns0x898ab5b1-1302667714.tcloudbaseapp.com/games/fortune_koi.html
 - 规格：5 轴 × 3 行，20 条固定赔付线，符号 12 种
 - 数学：目标 RTP 96.50%（容差 ±2.00%），波动 medium-high，最高单局 600×，命中率目标 30.00%
 - 投注档位：0.2 / 0.5 / 1 / 2 / 5 / 10 / 20（总注上限 20）
@@ -133,7 +133,7 @@ Scatter 全盘赔付（莲花 Scatter）：3 个 2× 总注；4 个 10× 总注�
 
 ## 冰原狼踪（frost_wolf）
 
-- 页面：https://vip-4.github.io/slot-games/games/frost_wolf.html
+- 页面：https://vip8-d4gy9ns0x898ab5b1-1302667714.tcloudbaseapp.com/games/frost_wolf.html
 - 规格：5 轴 × 4 行，50 条固定赔付线，符号 8 种
 - 数学：目标 RTP 96.50%（容差 ±3.00%），波动 high，最高单局 800×，命中率目标 30.00%
 - 投注档位：0.5 / 1 / 2 / 5 / 10 / 20 / 50（总注上限 50）
@@ -164,7 +164,7 @@ Scatter 全盘赔付（极光 Scatter）：3 个 1.11× 总注；4 个 3.32× �
 
 ## 黄金矿脉（gold_vein）
 
-- 页面：https://vip-4.github.io/slot-games/games/gold_vein.html
+- 页面：https://vip8-d4gy9ns0x898ab5b1-1302667714.tcloudbaseapp.com/games/gold_vein.html
 - 规格：5 轴 × 3 行，20 条固定赔付线，符号 8 种
 - 数学：目标 RTP 96.50%（容差 ±2.50%），波动 medium-high，最高单局 900×，命中率目标 33.00%
 - 投注档位：0.2 / 0.5 / 1 / 2 / 5 / 10 / 20（总注上限 20）
@@ -195,7 +195,7 @@ Scatter 全盘赔付（矿洞 Scatter）：3 个 1.99× 总注；4 个 6.97× �
 
 ## 丛林进化（jungle_evolve）
 
-- 页面：https://vip-4.github.io/slot-games/games/jungle_evolve.html
+- 页面：https://vip8-d4gy9ns0x898ab5b1-1302667714.tcloudbaseapp.com/games/jungle_evolve.html
 - 规格：5 轴 × 3 行，20 条固定赔付线，符号 8 种
 - 数学：目标 RTP 96.50%（容差 ±2.50%），波动 medium-high，最高单局 700×，命中率目标 32.00%
 - 投注档位：0.2 / 0.5 / 1 / 2 / 5 / 10 / 20（总注上限 20）
@@ -227,7 +227,7 @@ Scatter 全盘赔付（遗迹 Scatter）：3 个 1.39× 总注；4 个 5.57× �
 
 ## 幸运水果机（lucky_fruits）
 
-- 页面：https://vip-4.github.io/slot-games/games/lucky_fruits.html
+- 页面：https://vip8-d4gy9ns0x898ab5b1-1302667714.tcloudbaseapp.com/games/lucky_fruits.html
 - 规格：3 轴 × 3 行，5 条固定赔付线，符号 7 种
 - 数学：目标 RTP 96.00%（容差 ±2.00%），波动 low，最高单局 60×，命中率目标 75.00%
 - 投注档位：0.1 / 0.2 / 0.5 / 1 / 2 / 5 / 10（总注上限 10）
@@ -254,7 +254,7 @@ Scatter 全盘赔付（遗迹 Scatter）：3 个 1.39× 总注；4 个 5.57× �
 
 ## 霓虹双子（neon_twins）
 
-- 页面：https://vip-4.github.io/slot-games/games/neon_twins.html
+- 页面：https://vip8-d4gy9ns0x898ab5b1-1302667714.tcloudbaseapp.com/games/neon_twins.html
 - 规格：5 轴 × 3 行，20 条固定赔付线，符号 8 种
 - 数学：目标 RTP 96.50%（容差 ±2.50%），波动 medium-high，最高单局 600×，命中率目标 34.00%
 - 投注档位：0.2 / 0.5 / 1 / 2 / 5 / 10 / 20（总注上限 20）
@@ -285,7 +285,7 @@ Scatter 全盘赔付（双子门 Scatter）：3 个 1.61× 总注；4 个 6.44×
 
 ## 法老之墓（pharaoh_tomb）
 
-- 页面：https://vip-4.github.io/slot-games/games/pharaoh_tomb.html
+- 页面：https://vip8-d4gy9ns0x898ab5b1-1302667714.tcloudbaseapp.com/games/pharaoh_tomb.html
 - 规格：5 轴 × 3 行，243 Ways（相邻轴通路），符号 10 种
 - 数学：目标 RTP 96.00%（容差 ±2.00%），波动 medium-high，最高单局 1500×，命中率目标 50.00%
 - 投注档位：0.5 / 1 / 2 / 5 / 10 / 20（总注上限 20）
@@ -315,7 +315,7 @@ Scatter 全盘赔付（双子门 Scatter）：3 个 1.61× 总注；4 个 6.44×
 
 ## 凤凰涅槃（phoenix_rebirth）
 
-- 页面：https://vip-4.github.io/slot-games/games/phoenix_rebirth.html
+- 页面：https://vip8-d4gy9ns0x898ab5b1-1302667714.tcloudbaseapp.com/games/phoenix_rebirth.html
 - 规格：5 轴 × 3 行，20 条固定赔付线，符号 9 种
 - 数学：目标 RTP 96.50%（容差 ±2.50%），波动 medium-high，最高单局 500×，命中率目标 34.00%
 - 投注档位：0.2 / 0.5 / 1 / 2 / 5 / 10 / 20（总注上限 20）
@@ -347,7 +347,7 @@ Scatter 全盘赔付（神木 Scatter）：3 个 1.51× 总注；4 个 6.04× �
 
 ## 星际远征（star_expedition）
 
-- 页面：https://vip-4.github.io/slot-games/games/star_expedition.html
+- 页面：https://vip8-d4gy9ns0x898ab5b1-1302667714.tcloudbaseapp.com/games/star_expedition.html
 - 规格：6 轴 × 4 行，4096 Ways（相邻轴通路），符号 8 种
 - 数学：目标 RTP 96.00%（容差 ±2.00%），波动 high，最高单局 2000×，命中率目标 81.00%
 - 投注档位：0.5 / 1 / 2 / 5 / 10 / 20 / 50（总注上限 50）
@@ -376,7 +376,7 @@ Scatter 全盘赔付（神木 Scatter）：3 个 1.51× 总注；4 个 6.04× �
 
 ## 甜蜜风暴（sweet_storm）
 
-- 页面：https://vip-4.github.io/slot-games/games/sweet_storm.html
+- 页面：https://vip8-d4gy9ns0x898ab5b1-1302667714.tcloudbaseapp.com/games/sweet_storm.html
 - 规格：6 轴 × 5 行，全盘散付（6×5，不按赔付线），符号 8 种
 - 数学：目标 RTP 96.50%（容差 ±2.00%），波动 high，最高单局 5000×，命中率目标 35.00%
 - 投注档位：0.5 / 1 / 2 / 5 / 10 / 20 / 50（总注上限 50）
@@ -407,7 +407,7 @@ Scatter 全盘赔付（神木 Scatter）：3 个 1.51× 总注；4 个 6.04× �
 
 ## 雷霆神殿（thunder_temple）
 
-- 页面：https://vip-4.github.io/slot-games/games/thunder_temple.html
+- 页面：https://vip8-d4gy9ns0x898ab5b1-1302667714.tcloudbaseapp.com/games/thunder_temple.html
 - 规格：5 轴 × 3 行，20 条固定赔付线，符号 10 种
 - 数学：目标 RTP 96.50%（容差 ±2.50%），波动 high，最高单局 800×，命中率目标 30.00%
 - 投注档位：0.2 / 0.5 / 1 / 2 / 5 / 10 / 20（总注上限 20）
