@@ -12,20 +12,20 @@
 - 开源协议：MIT；积分保存在浏览器 localStorage，不上传服务器
 
 ## 机台
-- [糖果狂欢](https://vip882.gitee.io/slot-games/games/candy_carnival.html)：5×3，20 条赔付线，波动中，目标 RTP 96%（实测 97.04%），特性：扩展 Wild + 锁轴重转
-- [巨神遗迹](https://vip882.gitee.io/slot-games/games/colossal_ruins.html)：5×3，20 条赔付线，波动中高，目标 RTP 96%（实测 96.31%），特性：免费旋转、巨符号（2×2 / 3×3）
-- [龙宫探宝](https://vip882.gitee.io/slot-games/games/dragon_palace.html)：5×4，50 条赔付线，波动高，目标 RTP 96%（实测 97.20%），特性：免费旋转
-- [锦鲤纳福](https://vip882.gitee.io/slot-games/games/fortune_koi.html)：5×3，20 条赔付线，波动中高，目标 RTP 96%（实测 96.76%），特性：免费旋转、随机 Wild 投放、Cash Collect 金币收集
-- [冰原狼踪](https://vip882.gitee.io/slot-games/games/frost_wolf.html)：5×4，50 条赔付线，波动高，目标 RTP 96%（实测 96.44%），特性：免费旋转、行走 Wild
-- [黄金矿脉](https://vip882.gitee.io/slot-games/games/gold_vein.html)：5×3，20 条赔付线，波动中高，目标 RTP 96%（实测 96.50%），特性：免费旋转、奖池（Mini/Minor/Major/Grand）
-- [丛林进化](https://vip882.gitee.io/slot-games/games/jungle_evolve.html)：5×3，20 条赔付线，波动中高，目标 RTP 96%（实测 96.24%），特性：免费旋转、级联（雪崩）连击、符号升级（进化链）
-- [幸运水果机](https://vip882.gitee.io/slot-games/games/lucky_fruits.html)：3×3，5 条赔付线，波动低，目标 RTP 96%（实测 97.08%），特性：红黑翻倍博彩
-- [霓虹双子](https://vip882.gitee.io/slot-games/games/neon_twins.html)：5×3，20 条赔付线，波动中高，目标 RTP 96%（实测 96.32%），特性：免费旋转、同步轴（Twin Reels）
-- [法老之墓](https://vip882.gitee.io/slot-games/games/pharaoh_tomb.html)：5×3，243 Ways，波动中高，目标 RTP 96%（实测 95.40%），特性：Hold & Win 宝箱重转
-- [凤凰涅槃](https://vip882.gitee.io/slot-games/games/phoenix_rebirth.html)：5×3，20 条赔付线，波动中高，目标 RTP 96%（实测 96.92%），特性：免费旋转、神秘符号揭示
-- [星际远征](https://vip882.gitee.io/slot-games/games/star_expedition.html)：6×4，4096 Ways，波动高，目标 RTP 96%（实测 95.78%），特性：免费旋转、级联（雪崩）连击
-- [甜蜜风暴](https://vip882.gitee.io/slot-games/games/sweet_storm.html)：6×5，全盘散付（任意位置 8+ 同类即中），波动高，目标 RTP 96%（实测 96.28%），特性：免费旋转、全盘散付（Scatter Pays，8+ 同类即中）、随机倍率炸弹、级联（雪崩）连击
-- [雷霆神殿](https://vip882.gitee.io/slot-games/games/thunder_temple.html)：5×3，20 条赔付线，波动高，目标 RTP 96%（实测 96.90%），特性：免费旋转、倍率 Wild、Pick'em 选宝奖励
+- [糖果狂欢](https://vip-4.github.io/slot-games/games/candy_carnival.html)：5×3，20 条赔付线，波动中，目标 RTP 96%（实测 97.04%），特性：扩展 Wild + 锁轴重转
+- [巨神遗迹](https://vip-4.github.io/slot-games/games/colossal_ruins.html)：5×3，20 条赔付线，波动中高，目标 RTP 96%（实测 96.31%），特性：免费旋转、巨符号（2×2 / 3×3）
+- [龙宫探宝](https://vip-4.github.io/slot-games/games/dragon_palace.html)：5×4，50 条赔付线，波动高，目标 RTP 96%（实测 97.20%），特性：免费旋转
+- [锦鲤纳福](https://vip-4.github.io/slot-games/games/fortune_koi.html)：5×3，20 条赔付线，波动中高，目标 RTP 96%（实测 96.76%），特性：免费旋转、随机 Wild 投放、Cash Collect 金币收集
+- [冰原狼踪](https://vip-4.github.io/slot-games/games/frost_wolf.html)：5×4，50 条赔付线，波动高，目标 RTP 96%（实测 96.44%），特性：免费旋转、行走 Wild
+- [黄金矿脉](https://vip-4.github.io/slot-games/games/gold_vein.html)：5×3，20 条赔付线，波动中高，目标 RTP 96%（实测 96.50%），特性：免费旋转、奖池（Mini/Minor/Major/Grand）
+- [丛林进化](https://vip-4.github.io/slot-games/games/jungle_evolve.html)：5×3，20 条赔付线，波动中高，目标 RTP 96%（实测 96.24%），特性：免费旋转、级联（雪崩）连击、符号升级（进化链）
+- [幸运水果机](https://vip-4.github.io/slot-games/games/lucky_fruits.html)：3×3，5 条赔付线，波动低，目标 RTP 96%（实测 97.08%），特性：红黑翻倍博彩
+- [霓虹双子](https://vip-4.github.io/slot-games/games/neon_twins.html)：5×3，20 条赔付线，波动中高，目标 RTP 96%（实测 96.32%），特性：免费旋转、同步轴（Twin Reels）
+- [法老之墓](https://vip-4.github.io/slot-games/games/pharaoh_tomb.html)：5×3，243 Ways，波动中高，目标 RTP 96%（实测 95.40%），特性：Hold & Win 宝箱重转
+- [凤凰涅槃](https://vip-4.github.io/slot-games/games/phoenix_rebirth.html)：5×3，20 条赔付线，波动中高，目标 RTP 96%（实测 96.92%），特性：免费旋转、神秘符号揭示
+- [星际远征](https://vip-4.github.io/slot-games/games/star_expedition.html)：6×4，4096 Ways，波动高，目标 RTP 96%（实测 95.78%），特性：免费旋转、级联（雪崩）连击
+- [甜蜜风暴](https://vip-4.github.io/slot-games/games/sweet_storm.html)：6×5，全盘散付（任意位置 8+ 同类即中），波动高，目标 RTP 96%（实测 96.28%），特性：免费旋转、全盘散付（Scatter Pays，8+ 同类即中）、随机倍率炸弹、级联（雪崩）连击
+- [雷霆神殿](https://vip-4.github.io/slot-games/games/thunder_temple.html)：5×3，20 条赔付线，波动高，目标 RTP 96%（实测 96.90%），特性：免费旋转、倍率 Wild、Pick'em 选宝奖励
 
 ## 验证数据（构建期由数据库聚合后静态注入）
 - 累计仿真 220000 局，最近更新 2026-10-12T20:26:49+00:00
